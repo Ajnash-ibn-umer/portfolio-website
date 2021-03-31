@@ -1,31 +1,112 @@
 @import url(./partials/_variables.css);
 
+@import url(./partials/_globals.css);
 
-.header .menu .navbar .navbar-brand{
-    padding: 0 2rem 0 5rem;
+/***********************nav bar style --start ****************************** */
+
+
+.header .menu.navbar .navbar-brand {
+  padding: 0 2rem 0 5rem;
 }
-.header .menu .navbar{
-    padding:1rem 1rem ;
+.header .menu .navbar {
+  padding: 1rem 1rem;
 }
 
-.header .menu .nav-item .nav-link{
-    font: 500 15px/2px var(--my-font);
-    
-    text-transform: uppercase;
-    
-    padding: 1.7em;
-    color: var(--title-color);
+.header .menu .nav-item .nav-link {
+  font: 500 15px/2px var(--my-font);
+
+  text-transform: uppercase;
+
+  padding: 1.7em;
+  color: var(--title-color);
 }
 
 .header .menu .navbar-nav .nav-item .active {
-    background: var(--gradient-color);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color:transparent;
-    background-clip: text;
+  background: var(--gradient-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
-.header .menu .navbar-nav  a:hover{
-    background: var(--gradient-color);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color:transparent;
-    background-clip: text;
+.header .menu .navbar-nav a:hover {
+  background: var(--gradient-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
+/****************************nav bar style --end  *******************************/
+
+
+
+/*********************** home area start***********************************/
+.site-main .site-banner {
+  background: url(../img/banner/home-banner.png) no-repeat 0% 50% -1;
+}
+.site-main .site-banner .site-title h3 {
+  padding-top: 25%;
+  font-weight: bold;
+}
+.site-main .site-banner .site-title h3::after {
+  content: "";
+  width: 100px;
+  height: 2px;
+  background-color: black;
+  display: inline-block;
+  transform: translateY(-5px);
+  margin-left: 5%;
+}
+.site-main .site-banner .site-title h1 {
+  font-size: 4rem;
+}
+.site-main .site-banner .site-title h4 {
+}
+
+.button {
+  padding: 0.6rem 2.2rem;
+  font: bold bold 14px/20px var(--my-font);
+  position: relative;
+  border: 3px transparent;
+  border-radius: 4px;
+}
+
+.button.primary-button {
+  background: var(--gradient-color);
+  background-clip: padding-box;
+  color: whitesmoke;
+  transition: background 0.6s ease;
+  box-shadow: var(--box-shadow);
+  font-weight: bold;
+}
+
+.button.primary-button:hover {
+  background: whitesmoke;
+  background-clip: padding-box;
+  color: black;
+}
+.button.primary-button::after,
+.button.secondary-button::after {
+  content: "";
+  top: -2px;
+  bottom: -2px;
+  left: -2px;
+  right: -2px;
+  position: absolute;
+  background: var(--gradient-color);
+  border-radius: 4px;
+  z-index: -1;
+}
+.button.secondary-button {
+  background: white;
+  background-clip: padding-box;
+  transition: background 0.6 ease;
+  font-weight: bold;
+}
+.button.secondary-button:hover {
+  background: var(--gradient-color);
+  color: white;
+  box-shadow: var(--box-shadow);
+}
+
+/************************home area end*******************************/
+
+
+/****************** about us area*****************************/
