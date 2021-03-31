@@ -3,6 +3,7 @@ html,body{
     box-sizing: border-box ;
     width: 100%;
     height: 100%;
+    
 }
 
 /* css variables */
@@ -19,7 +20,7 @@ html,body{
 
 
 
---my-font: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+--my-font:monospace;
 
 
 }

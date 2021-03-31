@@ -39,7 +39,7 @@
 
 /*********************** home area start***********************************/
 .site-main .site-banner {
-  background: url(../img/banner/home-banner.png) no-repeat 0% 50% -1;
+  background: url(../img/banner/home-banner.png) no-repeat 0% 40% ;
 }
 .site-main .site-banner .site-title h3 {
   padding-top: 25%;
@@ -58,55 +58,24 @@
   font-size: 4rem;
 }
 .site-main .site-banner .site-title h4 {
+    font-size: 30px;
 }
 
-.button {
-  padding: 0.6rem 2.2rem;
-  font: bold bold 14px/20px var(--my-font);
-  position: relative;
-  border: 3px transparent;
-  border-radius: 4px;
-}
 
-.button.primary-button {
-  background: var(--gradient-color);
-  background-clip: padding-box;
-  color: whitesmoke;
-  transition: background 0.6s ease;
-  box-shadow: var(--box-shadow);
-  font-weight: bold;
-}
-
-.button.primary-button:hover {
-  background: whitesmoke;
-  background-clip: padding-box;
-  color: black;
-}
-.button.primary-button::after,
-.button.secondary-button::after {
-  content: "";
-  top: -2px;
-  bottom: -2px;
-  left: -2px;
-  right: -2px;
-  position: absolute;
-  background: var(--gradient-color);
-  border-radius: 4px;
-  z-index: -1;
-}
-.button.secondary-button {
-  background: white;
-  background-clip: padding-box;
-  transition: background 0.6 ease;
-  font-weight: bold;
-}
-.button.secondary-button:hover {
-  background: var(--gradient-color);
-  color: white;
-  box-shadow: var(--box-shadow);
-}
 
 /************************home area end*******************************/
 
 
 /****************** about us area*****************************/
+.site-main .about-area{
+padding:8rem 5rem;
+}
+.site-main .about-area .about-title h2 > span{
+    display: block;
+    font: italic bold 49px/60px var(--my-font);
+    letter-spacing: 11px;
+    
+
+}
+
+/****************** about us area End*****************************/
