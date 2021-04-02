@@ -196,4 +196,100 @@ padding:8rem 5rem;
 .site-main .project-area .grid .our-project > .title h4 {
   font: normal 500 25px/12px var(--my-font);
 }
+
+
+.site-main .project-area .grid img:hover{
+ 
+  filter: brightness(1.1) drop-shadow(1px 8px 32px rgb(72, 72, 72));
+
+}
+
 /******project-area end********************************************/
+
+/****about area *************************************************************/
+
+
+.site-main.about-area .client{
+  background: rgb(0, 0, 0);
+  box-shadow: var(--box-shadow);
+  margin: 3rem 0rem;
+
+}
+.site-main .about-area .client .about-client {
+  padding-top: 2rem;
+}
+.site-main .about-area .client .about-client h4{
+  font: normal 500 21px/20px var(--my-font);
+}
+.site-main .about-area .client .about-client p{
+  font-size: 14px;
+}
+.site-main .about-area .owl-carousel .owl-item{
+  display: flex;
+  justify-content: center;
+  padding: 0 1.5rem;
+}
+.site-main .about-area .owl-carousel .owl-dots .owl-dot.active span{
+  background: var(--primary-color);
+  width: 12px;
+  height: 12px;
+}
+
+
+/*** about area end************************************************************************/
+
+/*** subscribe area end************************************************************************/
+.site-main .subscribe-us-area .subscribe{
+  background:url(../img/subscribe-bg.png)no-repeat;
+  padding: 10rem 0;
+  margin: 3rem auto;
+}
+
+.site-main .subscribe-us-area .subscribe .subscribe-title h4{
+  font: normal 700 30px/30px var(--my-font);
+  color: whitesmoke;
+}
+
+.site-main .subscribe-us-area .subscribe .subscribe-title p{
+  color: rgb(255, 255, 255);
+  padding: 1rem 4rem;
+}
+.site-main .subscribe-us-area .subscribe form .input-textbox input{
+  width: 400px;
+  padding: 1.5rem 1rem;
+  border: 1px solid whitesmoke;
+  background: transparent;
+  color: white;
+  font: noraml bold 17px/20px var(--my-font);
+}
+.site-main .subscribe-us-area .subscribe form .input-textbox input::placeholder{
+  color: rgb(255, 255, 255);
+}
+.site-main .subscribe-us-area .subscribe form .btn-submit button{
+  background: rgb(255, 255, 255);
+  color: rgb(114, 114, 114);
+  padding: .7rem 2rem;
+}
+
+/*** subscribe area end************************************************************************/
+
+/**footer area****************/
+
+footer.footer-area{
+  padding: 5rem 0;
+  background: url(../img/footer-bg.png)no-repeat;
+
+}
+footer.footer-area .social h5{
+  font: noraml 500 23px/30px var(--my-font);
+}
+footer.footer-area .social a>i{
+  font-size: 22px;
+  padding: 2rem;
+  color: var(--border-color);
+}
+
+footer.footer-area .social a:hover >i{
+  color: var(--primary-color);
+}
+/*****footer area end*********/
