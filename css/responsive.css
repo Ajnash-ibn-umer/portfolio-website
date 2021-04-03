@@ -1,0 +1,32 @@
+@media only screen and(max-width: 600px) {
+  .site-main .about-area {
+    padding: 7rem 1rem;
+  }
+  .site-main .brand-area .experience-area .years-area {
+    background: url(../img/client-info-bg.png) no-repeat 25px 20px;
+
+    padding-left: 2rem;
+  }
+  .site-main .service-area .service-title {
+    padding: 0rem 1rem  !important;
+  }
+
+  .site-main .subscribe-us-area .subscribe form .input-textbox input{
+    width: 100%;
+    padding: 1.5rem 2rem;
+    border: 1px solid whitesmoke;
+    background: transparent;
+    color: white;
+    font: noraml bold 17px/20px var(--my-font);
+    margin: auto;
+  }
+  .site-main .subscribe-us-area .subscribe form .input-textbox input::placeholder{
+    color: rgb(255, 255, 255);
+  }
+  .site-main .subscribe-us-area .subscribe form .btn-submit button{
+    background: rgb(255, 255, 255);
+    color: rgb(114, 114, 114);
+    padding: .7rem 2rem;
+    margin: auto;
+  }
+}
