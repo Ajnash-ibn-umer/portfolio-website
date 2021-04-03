@@ -37,17 +37,17 @@ console.log('ok');
     })
 
 
-    let nav_offset_top=$('.header_area').height()+50;
+    let nav_offset_top=$('.header').height();
 
     function navbarFixed(){
         console.log(nav_offset_top);
-        if($('.header_area').length){
+        if($('.header').length){
             $(window).scroll(function(){
                 let scroll=$(window).scrollTop();
                 if(scroll>=nav_offset_top){
-                    $('header_area .main-menu').addClass('navbar_fixed')
+                    $('.header .menu').addClass('navbar_fixed')
                 }else{
-                    $('header_area .main-menu').removeClass('navbar_fixed') 
+                    $('.header .menu').removeClass('navbar_fixed') 
                 }
             })
         }

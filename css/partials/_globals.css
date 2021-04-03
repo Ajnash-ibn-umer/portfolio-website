@@ -77,5 +77,5 @@ font: normal bold 50px/72px var(--my-font);
     background: white;
     box-shadow: var(--box-shadow);
     z-index: 999;
-    transition: background 1s ease;
+    transition: background .5s ease;
   }
