@@ -81,6 +81,11 @@ font: normal bold 50px/72px var(--my-font);
     color: white;
     box-shadow: var(--box-shadow);
   }
+
+  .logo{
+    font: normal bold 30px/42px var(--my-font);
+    color: var(--primary-color);
+  }
   p.para{
       color: var(--text-color);
       font:normal 500 16px/25px var(--my-font)
@@ -402,3 +407,8 @@ footer.footer-area .social a:hover >i{
   color: var(--primary-color);
 }
 /*****footer area end*********/
+
+
+
+
+
